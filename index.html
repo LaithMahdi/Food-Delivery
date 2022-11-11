@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link style-->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- link Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- OwlCarousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="CSS/animate.css">
+    <!-- Slider SLICK -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="CSS/slick-theme.css">
+    <!-- magnific-popup -->
+    <link rel="stylesheet" href="CSS/magnific-popup.css">
+    <title>My website</title>
+0</head>
+<body>
+    <!--Start header-->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand titleFont" href="#">logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" onclick="showToggle()" id="toggleBtn">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active font" aria-current="page" href="#">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font" href="#Information">a propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font" href="#menu">Mes PLats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font" href="#contact">contact</a>
+              </li> 
+            </ul>
+            <div class="m-3 panier">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+            <div class="">
+              <a class="btn font fw-normal" id="SignIn" href="SignIn.html">Se connecter</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--End header-->
+
+
+    <!-- Start Section first-->
+    <section id="acceuil">
+     <div class="owl-carousel owl-theme">
+      <div class="slide slide-1">
+        <div class="slide-content">
+          <h1 class="text-uppercase text-center titleFont fw-bold">le meilleur plat est la</h1>
+          <p class="font "wow slideInUp" data-wow-offset="10"">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium assumenda esse delectus voluptatem id fugit, illo quod sint magni, ab architecto officiis molestias minima soluta earum? Illo, aspernatur nobis.
+          Corrupti iste illum, dolorem non veritatis et error nesciunt obcaecati ipsa cum perferendis, porro facere quae? Inventore mollitia exercitationem qui quisquam, minima accusamus, recusandae, hic dignissimos voluptates ipsum nisi nobis?</p>
+          <div class="btnScFirst">
+            <a href="" class="btn font">Commander maintenant</a>
+            <a href="" class="btn font mt-1">Regarder le video <i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide-2">
+        <div class="slide-content">
+          <h1 class="text-uppercase text-center titleFont fw-bold">le meilleur plat est la</h1>
+          <p class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium assumenda esse delectus voluptatem id fugit, illo quod sint magni, ab architecto officiis molestias minima soluta earum? Illo, aspernatur nobis.
+          Corrupti iste illum, dolorem non veritatis et error nesciunt obcaecati ipsa cum perferendis, porro facere quae? Inventore mollitia exercitationem qui quisquam, minima accusamus, recusandae, hic dignissimos voluptates ipsum nisi nobis?</p>
+          <div class="btnScFirst">
+            <a href="" class="btn font">Commander maintenant</a>
+            <a href="" class="btn font mt-1">Regarder le video <i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide-3">
+        <div class="slide-content">
+          <h1 class="text-uppercase text-center titleFont fw-bold">le meilleur plat est la</h1>
+          <p class="font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium assumenda esse delectus voluptatem id fugit, illo quod sint magni, ab architecto officiis molestias minima soluta earum? Illo, aspernatur nobis.
+          Corrupti iste illum, dolorem non veritatis et error nesciunt obcaecati ipsa cum perferendis, porro facere quae? Inventore mollitia exercitationem qui quisquam, minima accusamus, recusandae, hic dignissimos voluptates ipsum nisi nobis?</p>
+          <div class="btnScFirst">
+            <a href="" class="btn font">Commander maintenant</a>
+            <a href="" class="btn font mt-1">Regarder le video <i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </section>
+  <!-- End Section first-->
+
+  <section class="mt-5 mb-5" id="Information">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 col-sm-6 wow slideInLeft" data-wow-duration="2s"">
+          <div class="card d-flex align-items-center justify-content-center">
+            <div class="icone mt-4">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="text m-3">
+              <h5 class="font fw-bold text-uppercase">Aujourd'hui 10:00 Am - 23:00 Pm</h5>
+              <p class="font fw-normal text-muted text-center">Temps de travail</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-sm-6 wow slideInLeft" data-wow-duration="2s">
+          <div class="card d-flex align-items-center justify-content-center">
+            <div class="icone mt-4">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="text m-3">
+              <h5 class="font fw-bold text-uppercase">+216 98 765 432</h5>
+              <p class="font fw-normal text-muted text-center">Telephone</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-sm-6 wow slideInRight" data-wow-duration="2s">
+          <div class="card d-flex align-items-center justify-content-center">
+            <div class="icone mt-4">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="text m-3">
+              <h5 class="font fw-bold text-uppercase">Korba, Tunisia 8070</h5>
+              <p class="font fw-normal text-muted text-center">Adresse</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Section first-->
+
+
+  <!--Start Section Services-->
+  <section class="services pb-5" id="services">
+    <div class="container">
+      <h1 class="text-center titleFont text-capitalize fw-bold wow fadeInLeft" data-wow-duration="3s">qu'est-ce qui fait de nous les meilleurs ?</h1>
+      <hr>
+      <div class="row gy-4">
+        <div class="col-12 col-sm-6 col-md-4 text-center wow bounceInUp" data-wow-duration="2s">
+          <div class="card p-4 my-2">
+            <img src="Images/Service-1.png" alt="" class="w-25 rounded mx-auto d-block">
+            <div class="mt-4">
+              <h3 class="mb-3">Passer des commandes en toute simplicité</h3>
+              <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi quis molestias ullam? Recusandae pariatur, velit dolorem nam voluptate nobis debitis beatae delectus accusantium accusamus quisquam possimus rerum ratione fuga. Repellat id ut maiores dignissimos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center wow bounceInDown" data-wow-duration="2s" data-wow-delay:="1s">
+          <div class="card p-4 my-2">
+            <img src="Images/Service-2.png" alt="" class="w-25 rounded mx-auto d-block">
+            <div class="mt-4">
+              <h3 class="mb-5">Livraison ultra rapide</h3>
+              <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi quis molestias ullam? Recusandae pariatur, velit dolorem nam voluptate nobis debitis beatae delectus accusantium accusamus quisquam possimus rerum ratione fuga. Repellat id ut maiores dignissimos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 text-center wow bounceInUp" data-wow-duration="2s">
+          <div class="card p-4 my-2">
+            <img src="Images/Service-3.png" alt="" class="w-25 rounded mx-auto d-block">
+            <div class="mt-4">
+              <h3 class="mb-3">Nourriture de première qualité</h3>
+              <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi quis molestias ullam? Recusandae pariatur, velit dolorem nam voluptate nobis debitis beatae delectus accusantium accusamus quisquam possimus rerum ratione fuga. Repellat id ut maiores dignissimos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Section Services-->
+
+  <!-- Start actualités -->
+  <section id="actualite" class="actualite mt-5 mb-5">
+    <div class="container"> <div class="d-flex flex-row justify-content-between align-items-center align-items-center">
+        <h1 class="titleFont text-capitalize fw-bold wow slideInLeft" data-wow-duration="2s">nos actualités</h1>
+        <button class="font text btnReadMore wow slideInRight" data-wow-duration="2s">Voir plus</button></div>
+      <hr> 
+      <div class="row">
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 wow slideInLeft" data-wow-duration="2s">
+          <div class="card m-1">
+            <img src="Images/act1.jpg" alt="" class="card-img-top">
+          <div class="mx-2">
+            <h3 class="font fw-bold mt-2 fs-5">Pizza Spécial</h3>
+            <p class="text-secondary fw-normal" style="font-size: 12px;">Publie Aujourd'hui 20:21h</p>
+            <hr id="line">
+            <button class="font pb-2 btnReadMore">Lire la suite</button></div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 wow slideInDown" data-wow-duration="2s">
+          <div class="card m-1">
+            <img src="Images/act2.png" alt="" class="card-img-top">
+          <div class="mx-2">
+            <h3 class="font fw-bold mt-2 fs-5">Nouvelle Plat</h3>
+            <p class="text-secondary fw-normal" style="font-size: 12px;">Publie Aujourd'hui 16.25h</p>
+            <hr id="line">
+            <button class="font pb-2 btnReadMore">Lire la suite</button></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 wow slideInDown" data-wow-duration="2s">
+          <div class="card m-1">
+            <img src="Images/act3.jpg" alt="" class="card-img-top">
+          <div class="mx-2">
+            <h3 class="font fw-bold mt-2 fs-5">50% sur votre achat en ligne</h3>
+            <p class="text-secondary fw-normal" style="font-size: 12px;">Publie Aujourd'hui 12:05h</p>
+            <hr id="line">
+            <button class="font pb-2 btnReadMore">Lire la suite</button></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 wow slideInRight" data-wow-duration="2s">
+          <div class="card m-1">
+            <img src="Images/act4.jpg" alt="" class="card-img-top">
+          <div class="mx-2">
+            <h3 class="font fw-bold mt-2 fs-5">Notre plat d'aujourd'hui</h3>
+            <p class="text-secondary fw-normal" style="font-size: 12px;">Publie Aujourd'hui 10:00h</p>
+            <hr id="line">
+            <button class="font pb-2 btnReadMore">Lire la suite</button></div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+  </section>
+  <!-- End actualités -->
+
+  <!-- Start Notre menu -->
+  <section class="menu py-3 my-3" id="menu">
+    <div class="container">
+      <div class="row">
+        <div class="filtering text-center col-sm-12">
+          <div class="filter wow bounce" data-wow-duration="3s">
+            <span data-filter="*" class="active"><i class="fa-solid fa-sliders"></i></span>
+            <span data-filter=".pizza">Pizza</span>
+            <span data-filter=".sandiwch">Sandiwch</span>
+            <span data-filter=".hamburger">Hamburger</span>
+            <span data-filter=".plat">Plat</span>
+            <span data-filter=".boire">Jus & café</span>
+          </div>
+        </div>
+       
+        <div class="menu-commande mt-4 wow bounceInLeft" data-wow-duration="4s">
+          <div class="row">
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 pizza *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Pizza</label>
+                  <label class="font fw-bold">20 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3" data-bs-toggle="modal" data-bs-target="#reg-modal">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 hamburger *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-2.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Hamburger</label>
+                  <label class="font fw-bold">15 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 sandiwch *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-3.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Sandiwch L</label>
+                  <label class="font fw-bold">15 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 sandiwch *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-4.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Sandiwch M</label>
+                  <label class="font fw-bold">10 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 plat *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-5.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Plat Kabeb</label>
+                  <label class="font fw-bold">17 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 plat *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-6.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Chawarma</label>
+                  <label class="font fw-bold">15 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 boire *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-7.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Coca cola</label>
+                  <label class="font fw-bold">5 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="items col-6 col-lg-3 col-md-4 col-sm-6 boire *">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="Images/menu/menu-8.png" alt="" class="img-fluid">
+                </div>
+                <div class="d-flex flex-row justify-content-between mx-2">
+                  <label class="fw-normale font">Café</label>
+                  <label class="font fw-bold">6 TND</label>
+                </div>
+                <div class="star mx-2">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                </div>
+                <div class="text-center mt-2">
+                  <button class="mb-3 font px-3">Acheter</button>
+                  <button class="mb-3 font px-2"><i class="fa-solid fa-heart"></i></button>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Notre menu -->
+
+  <!-- Start modal -->
+  <section>
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title titleFont" id="modal-title">Votre achat</h4>
+          <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+      
+      <div class="modal-body">
+        <div class="image text-center">
+          <img src="images/menu/menu-1.png" alt="" class="img-fluid" style="width: 200px;">
+        </div>
+       <div class="ifn">
+        <h4 class="titleFont fw-bold">Pizza 4 saisons</h4>
+        <div class="prix d-flex justify-content-between align-items-center">
+          <div class="qte">
+            <label>Quantité :</label><input type="number" name="Qte" id="qte" min="1" max="10" value="1" class="mx-2">
+          </div>
+          <span class="font fw-bold fs-4" id="prixQte">20 TND</span>
+        </div>
+        <p class="font my-2">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate doloribus voluptatem perspiciatis laborum. Iste porro fugiat facilis rerum animi aspernatur expedita culpa, vitae alias. Quas.
+        </p>
+       </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button>Commander</button>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- End modal -->
+
+  <!-- Start Food gallery -->
+  <section class="gallery my-3" id="gallery">
+    <div class="container">
+      <h1 class="fw-bold text-center titleFont wow bounceInLeft" data-wow-duration="2s">Notre Galerie Photos</h1>
+      <hr>
+      <div class="sliderSlick wow fadeIn" data-wow-duration="4s">
+        <div class="item"><a href="Images/Gallery/gallery-1.jpg" class="photo"><img src="Images/Gallery/gallery-1.jpg" alt="" class="w-100"></a></div>
+        <div class="item"><a href="Images/Gallery/gallery-2.jpg" class="photo"><img src="Images/Gallery/gallery-2.jpg" alt="" class="w-100"></a></div>
+        <div class="item"><a href="Images/Gallery/gallery-3.jpg" class="photo"><img src="Images/Gallery/gallery-3.jpg" alt="" class="w-100"></a></div>
+        <div class="item"><a href="Images/Gallery/gallery-4.jpg" class="photo"><img src="Images/Gallery/gallery-4.jpg" alt="" class="w-100"></a></div>
+        <div class="item"><a href="Images/Gallery/gallery-5.jpg" class="photo"><img src="Images/Gallery/gallery-5.jpg" alt="" class="w-100"></a></div>
+        <div class="item"><a href="Images/Gallery/gallery-6.jpg" class="photo"><img src="Images/Gallery/gallery-6.jpg" alt="" class="w-100"></a></div>
+        <div class="item"><a href="Images/Gallery/gallery-7.jpg" class="photo"><img src="Images/Gallery/gallery-7.jpg" alt="" class="w-100"></a></div>
+        <div class="item"><a href="Images/Gallery/gallery-8.jpg" class="photo"><img src="Images/Gallery/gallery-8.jpg" alt="" class="w-100"></a></div>
+      </div>
+    </div>
+  </section>
+  <!-- End Food gallery -->
+
+  <!-- Start Testimonials -->
+  <section class="Testimonial p-2 my-3" id="Testimonial">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between wow pulse" data-wow-duration="3s">
+        <h1 class="titleFont fw-bold">Blog</h1>
+        <span class="font">voir plus</span>
+      </div>
+      <hr style="margin-top:-5px;">
+      <div class="row">
+      <!-- Start box 1-->
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+         <div class="box m-2 bg-light border border-1 rounded rounded-4 wow fadeInLeft" data-wow-duration="2s">
+          <i class="fa-solid fa-quote-left p-2 fs-1"></i>
+          <div class="image text-center pt-3">
+            <img src="Images/person/person-1.jpg" alt="">
+          </div>
+         <div class="title">
+          <h3 class="text-center font">Ali hamed</h3>
+          <h6 class="text-center font">Nouveau Client</h6>
+         </div>
+         <div class="paragraphe"> <p class="px-2 fst-normal font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati repellendus fugiat expedita error. Aliquam aperiam illum consequuntur nam necessitatibus sint saepe excepturi libero quo.</p></div>
+         <div class="text-end"> <i class="fa-solid fa-quote-right  p-2 fs-1"></i></div>
+        </div>
+      </div>
+      <!-- End box 1-->
+      <!-- Start box 2-->
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="box m-2 bg-light border border-1 rounded rounded-4 wow fadeInDown" data-wow-duration="2s">
+         <i class="fa-solid fa-quote-left p-2 fs-1"></i>
+         <div class="image text-center pt-3">
+           <img src="Images/person/person-2.jpg" alt="">
+         </div>
+        <div class="title">
+         <h3 class="font text-center">Asma amor</h3>
+         <h6 class="font text-center">Nouveau Client</h6>
+        </div>
+        <div class="paragraphe"> <p class="px-2 fst-normal font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati repellendus fugiat expedita error. Aliquam aperiam illum consequuntur nam necessitatibus sint saepe excepturi libero quo.</p></div>
+        <div class="text-end"> <i class="fa-solid fa-quote-right  p-2 fs-1"></i></div>
+        </div>
+      </div>
+      <!-- End box 2-->
+      <!-- Start box 3-->
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="box m-2 bg-light border border-1 rounded rounded-4  wow fadeInUp" data-wow-duration="2s">
+          <i class="fa-solid fa-quote-left p-2 fs-1"></i>
+          <div class="image text-center pt-3">
+            <img src="Images/person/person-3.jpg" alt="">
+          </div>
+          <div class="title">
+          <h3 class="text-center font">Ayouta</h3>
+          <h6 class="text-center font">Ancienne Cliente</h6>
+          </div>
+          <div class="paragraphe"> <p class="px-2 fst-normal font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati repellendus fugiat expedita error. Aliquam aperiam illum consequuntur nam necessitatibus sint saepe excepturi libero quo.</p></div>
+          <div class="text-end"> <i class="fa-solid fa-quote-right  p-2 fs-1"></i></div>
+        </div>
+      </div>
+      <!-- End box 3-->
+      <!-- Start box 4-->
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+          <div class="box m-2 bg-light border border-1 rounded rounded-4  wow fadeInRight" data-wow-duration="2s">
+          <i class="fa-solid fa-quote-left p-2 fs-1"></i>
+          <div class="image text-center pt-3">
+            <img src="Images/person/person-4.jpg" alt="">
+          </div>
+          <div class="title">
+          <h3 class="text-center font">Hama bn</h3>
+          <h6 class="text-center font">Ancien Client</h6>
+          </div>
+          <div class="paragraphe"> <p class="px-2 fst-normal font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati repellendus fugiat expedita error. Aliquam aperiam illum consequuntur nam necessitatibus sint saepe excepturi libero quo.</p></div>
+          <div class="text-end"> <i class="fa-solid fa-quote-right  p-2 fs-1"></i></div>
+        </div>
+      </div>
+      <!-- End box 4-->
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials -->
+  
+  
+  <!-- Start contact -->
+  <section class="contact my-5" id="contact">
+    <div class="container">
+      <h5 class="text-center mt-2 titleFont">Trouve Nous</h5>
+      <h1 class="text-center fw-bold titleFont wow fadeInUpBig"  data-wow-duration="2s">Contact Nous</h1>
+      <div class="row">
+        <div class="col-12 col-lg-12 m-auto">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4 text-center wow fadeInUp" data-wow-duration="4s">
+                <img src="Images/contact.png" class="img-fluid rounded-start px-1" style="width: 270px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text wow fadeInUpBig"  data-wow-duration="5s>
+                    <label for="exampleInputEmail1" class="form-label font">Nom & Prénom</label>
+                      <input type="text" class="form-control my-1">
+                    <label for="exampleInputEmail1" class="form-label font">Adresse E-mail</label>
+                      <input type="email" class="form-control my-1">
+                    <label for="exampleInputEmail1" class="form-label font">Numéro de Télephone</label>
+                      <input type="tel" class="form-control my-1">
+                    <label for="exampleFormControlTextarea1" class="form-label font">Laissez votre message</label>
+                      <textarea class="form-control my-1" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <button type="button" class="mt-2 w-100 font">Envoyer</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End contact -->
+
+  <footer>
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-6 col-md-3 col-sm-4 px-5">
+          <div class="logo">
+            <h1 class="titleFont fw-bold text-light">logo</h1>
+            <label class="font text-light">Nom de sociéte</label>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-sm-4">
+          <ul>
+            <li><a href="" class="font">Accueil</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="font">A propos</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="font">Mes commandes</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="font">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-sm-4">
+          <ul>
+            <li><a href="" class="font">Serives</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="font">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-sm-4">
+          <ul>
+            <li><a href="SignIn.html" class="font">Se connecter</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="font">Nos Actualités</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="font">Galerie de photos</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="font">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="text-light">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-solid fa-blog"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <!--link JS-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="JS/scJquery.js"></script>
+    <!-- OwlCarousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Wow JS -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/mainWow.js"></script>
+    <!-- Slider SLICK -->
+    <script src="js/slick.min.js"></script>
+    <!-- isotope filter -->
+    <script src="JS/isotope.pkgd.min.js"></script>
+    <!-- magnific-popup -->
+    <script src="js/jquery.magnific-popup.js"></script>
+</body>
+</html>
