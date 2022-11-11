@@ -1,0 +1,66 @@
+:root{
+    --firstColor: #FF8D29;
+    --secondColor: #FFE8D4;
+    --darkColor: #000000;
+    --lightColor:#ffffff;
+    --pargColor: #666666;
+    --starColor: #FFC400;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+.titleFont{
+    font-family: Playfair Display,serif;
+}
+.font{
+    font-family: Montserrat,sans-serif;
+}
+button{
+    padding: 10px;
+    background-color: var(--firstColor);
+    border: none;
+    color: var(--lightColor);
+    transition: 0.3s ease-in-out;
+    outline: none;
+    height: auto;
+    width: 150px;
+}
+button:hover{
+    border: 2px solid var(--firstColor);
+    background-color: var(--lightColor);
+    color: var(--firstColor);
+    height: auto;
+}
+.box{
+    width: 40rem;
+    background-color: var(--lightColor);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container input:focus{
+    border-color: var(--firstColor);
+    box-shadow: 0 1px 1px rgba(255, 141, 41, 0.1) inset, 0 0 8px rgba(255, 141, 41, 0.8);
+    outline: 0 none;
+}
+.container input[type="radio"]:focus , .container input[type="radio"]:checked{
+    background-color: var(--firstColor);
+    outline: none;
+    border: none;
+}
+.box a i{
+    font-size: 25px;
+    color: var(--darkColor);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+}

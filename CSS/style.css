@@ -1,0 +1,527 @@
+:root{
+    --firstColor: #FF8D29;
+    --secondColor: #FFE8D4;
+    --darkColor: #000000;
+    --lightColor:#ffffff;
+    --pargColor: #666666;
+    --starColor: #FFC400;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+.titleFont{
+    font-family: Playfair Display,serif;
+}
+.font{
+    font-family: Montserrat,sans-serif;
+}
+/* cretation button principle*/
+.btnPR{
+    padding: 10px;
+    background-color: var(--firstColor);
+    border: none;
+    color: var(--lightColor);
+    border-radius: 2px;
+    width: 250px;
+    transition: 0.3s ease-in-out;
+}
+.btnPR:hover{
+    border: 2px solid var(--firstColor);
+    background-color: var(--lightColor);
+    color: var(--firstColor);
+}
+#SignIn{
+    border: 2px solid var(--lightColor);
+    color: var(--lightColor);
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.4s linear;
+    position: relative;
+}
+#SignIn:hover{
+    background-color: var(--lightColor);
+    color: var(--firstColor);
+}
+/* FONT */
+
+/* Nav Start */
+.panier i{
+    border: 2px solid var(--lightColor);
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: var(--lightColor);
+}
+.panier i:hover{
+    background-color: var(--lightColor);
+    color: var(--firstColor);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+nav{
+    background-color: var(--firstColor);
+}
+/* navbar brand*/ 
+.navbar-brand{
+    font-size: 2rem;
+    color: var(--lightColor);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: var(--lightColor);
+}
+
+/* nav link */
+.nav-link{
+    margin: 0 20px 0 20px;
+    color: var(--lightColor);
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    color: var(--firstColor);
+    background-color: var(--lightColor);
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.4s ease-in;
+}
+.search{
+    height: 40px;
+    width: 100%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-size: 13px;
+    border: 2px solid var(--darkColor);
+}
+.btnSearch{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+    font-weight: 700;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.4s linear;
+    position: relative;
+}
+.navbar-toggler-icon{
+    color: var(--darkColor);
+    padding: 3px;
+}
+.navbar-collapse{
+    transition: all ease-in-out;
+}
+/* Nav End*/
+
+
+
+/* Start first Section  */
+
+/* owl-carousel Start */
+.owl-carousel{
+    width: 100%;
+    height: 100vh;
+}
+.slide{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.slide::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.slide-1{
+    background-image: url("../Images/BG1.jpg");
+}
+.slide-2{
+    background-image: url("../Images/BG2.jpg");
+}
+.slide-3{
+    background-image: url("../Images/BG3.jpg");
+}
+.slide-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--lightColor);
+    padding: 0 20%;
+}
+.owl-dots{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+}
+.owl-dots span{
+    width: 15px;
+    height: 15px;
+}
+.owl-dots button{
+    border: none;
+    outline: none;
+}
+/* owl-carousel End */
+#acceuil h1{
+    color: var(--firstColor);
+}
+#acceuil p{
+    color: var(--lightColor);
+    font-size: 14px;
+}
+.btnScFirst .btn:first-child{
+    background-color: var(--firstColor);
+    color: var(--lightColor);
+    padding: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    width: 250px; 
+    cursor: pointer;
+    transition: 0.4s linear;
+    position: relative;
+}
+.btnScFirst .btn:last-child{
+    padding: 15px;
+    border: 2px solid var(--firstColor);
+    color: var(--firstColor);
+    font-size: 16px;
+    border-radius: 15px;
+    width: 250px;
+    cursor: pointer;
+    transition: 0.4s linear;
+    position: relative;
+}
+.btnScFirst .btn:first-child:hover,.btnScFirst .btn:last-child:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* End first Section */
+
+
+
+/* Start Informations */
+
+#Information .card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Information .card i{
+    font-size: 60px;
+    color: var(--firstColor);
+}
+#Information .card p{
+    margin-top: -10px;
+}
+#Information .card:hover{
+    top: 20px;
+    transition: 0.3s ease-in;
+}
+/* End Informations */
+
+/* Start services */
+.services{
+    background-color: var(--secondColor);
+    padding: 25px;
+}
+.services .card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services h1{
+    color: var(--firstColor);
+}
+.services .card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* End services */
+
+/* Actualite Start */
+.actualite h1{
+    color: var(--firstColor);
+}
+.btnReadMore{
+    border: none;
+    text-decoration: none;
+    color: var(--pargColor);
+    background-color: var(--lightColor);
+    cursor: pointer;
+    transition: 0.4s linear;
+    position: relative;
+}
+.btnReadMore:hover{
+    text-decoration: underline;
+}
+#line{
+    width: 35px;
+    height: 3px;
+    position: relative;
+    bottom: -10px;
+    margin-top: -15px;
+    color: var(--pargColor);
+}
+/* Actualite End */
+
+/* Start menu */
+#menu{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.5)),url("../Images/bgMenu.jpg"), no-repeat center center;
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+}
+.menu .items button, .gallery button{
+    background-color: var(--firstColor);
+    color: var(--lightColor);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s linear;
+    position: relative;
+}
+.menu .items button:hover, .gallery button:hover{
+    background: none;
+    color: var(--firstColor);
+    outline: 2px solid var(--firstColor);
+}
+.menu  .items .card img{
+    -webkit-transform: scale(0.89);
+	transform: scale(0.89);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.menu .items .card img:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
+.menu .filtering .filter{
+    display: inline-block;
+    padding: 29px 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.menu .filtering .filter span{
+    margin: 0 5px;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.menu .filtering .active{
+    background-color: var(--firstColor);
+    color: var(--lightColor);
+}
+/* End menu */
+
+/* Start Gallery */
+
+.gallery h1{
+    color: var(--firstColor);
+}
+.sliderSlick{
+    margin-top: -25px;
+}
+
+.slick-slide{
+    margin: 30px 15px;
+}
+.sliderSlick .slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+}
+ 
+.sliderSlick .slick-dots li button {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	padding: 0;		
+	border: none;
+	border-radius: 100%;
+	background-color: var(--secondColor);		
+	text-indent: -9999px;
+}
+ 
+.sliderSlick .slick-dots li.slick-active button {
+	background-color: var(--firstColor);
+}
+/* End Gallery */
+
+
+/* Start Testimonial */
+.Testimonial{
+    background-color: var(--secondColor);
+}
+.Testimonial h1{
+    color: var(--firstColor);
+}
+.Testimonial span:hover{
+    text-decoration: underline;
+}
+.Testimonial .box i{
+    color: var(--firstColor);
+}
+.Testimonial .box i:last-child{
+    margin-top: -15px;
+}
+.Testimonial .box .image img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin-top: -25px;
+}
+.Testimonial .box .title h6{
+    margin-top: -10px;
+    color: var(--pargColor);
+}
+.Testimonial .box .paragraphe{
+    font-size: 14px;
+    color: var(--pargColor);
+}
+.Testimonial .box:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.1s ease-in;
+}
+/* End Testimonial */
+
+/* Start contact */ 
+.contact input:focus , .contact textarea:focus{
+    border-color: var(--firstColor);
+    box-shadow: 0 1px 1px rgba(255, 141, 41, 0.1) inset, 0 0 8px rgba(255, 141, 41, 0.8);
+    outline: 0 none;
+}
+.contact button{
+    background-color: var(--firstColor);
+    color: var(--lightColor);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s linear;
+    position: relative;
+}
+.contact button:hover{
+    background: none;
+    color: var(--firstColor);
+    outline: 2px solid var(--firstColor);
+}
+.contact h1{
+    color: var(--firstColor);
+    margin-top: -12px;
+}
+/* End contact */ 
+/* footer Start */ 
+footer{
+    background-color: var(--firstColor);
+}
+footer .container ul{
+    list-style-type: none;
+}
+footer .container ul li a{
+    text-decoration: none;
+    color: var(--lightColor);
+}
+footer .container ul li a:hover{
+    text-decoration: underline;
+}
+footer .icon i{
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid var(--lightColor);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    align-items: center;
+    color: var(--lightColor);
+    border-radius: 50px;
+}
+footer .icon i:hover{
+    background-color: var(--lightColor);
+    color: var(--firstColor);
+    transition: 0.4s ease-in;
+}
+/* footer End */ 
+
+
+/* modal Start */
+.ifn h4{
+    color: var(--firstColor);
+}
+#qte{
+    background-color: var(--lightColor);
+    padding: 5px;
+    border: 2px solid var(--darkColor);
+    border-radius: 5px;
+}
+#prixQte{
+    color: var(--firstColor);
+}
+.modal p{
+    font-size: 13px;
+    text-align: justify;
+}
+.modal button:nth-child(1){
+    background-color: var(--firstColor);
+    color: var(--lightColor);
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+.modal button:nth-child(1):hover{
+    background-color: var(--lightColor);
+    border: 2px solid var(--firstColor);
+    color: var(--firstColor);
+    transition: 0.4s ease-in;
+}
+/* modal End */ 
+/* Media query*/
+@media only screen and (max-width: 600px) {
+    #acceuil p{
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    #Information .card{
+        height: 250px;
+        margin-top: 10px;
+    }
+    #SignIn{
+        margin-left: 15px;
+        width: 92%;
+    }
+    .panier i{
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    .nav-link:hover{
+        width: 92%;
+    }
+}
